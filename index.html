@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo App</h1>
+      <div class="input-container">
+        <input type="text" id="taskInput" placeholder="Add a new Task" />
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+    <!-- <span>${task.text}</span>
+    <hr>
+    <button class="edit-button" onclick="editTask($(index))">Edit</button>
+    <button class="delete-button" onclick="deleteTask($(index))">Delete</button> -->
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
